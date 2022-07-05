@@ -77,10 +77,15 @@ span{
 .myrecipie{
     text-align: center;
     line-height: 1.5rem;
+    width: 800px;
+    margin: auto;
+
     
 }
 .myrecipie h1{
     padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 40px;
 }
 .card{
     display: flex;
@@ -98,4 +103,26 @@ span{
 }
 .card-content img{
     width: 100%;
+}
+.followers{ 
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.followers-items{
+    display: flex;
+    box-shadow: 0px 5px 20px rgb(255, 241, 241);
+    padding: 30px 0px;
+}
+.followers-items div{
+    margin: auto;
+    text-align: center;
+}
+.followers-items h1{
+    font-size: 40px;
+}
+.followers-items p{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(120, 102, 102);
 }
