@@ -34,7 +34,9 @@ span{
 .half-width p{
     font-size: 1.2rem;
     font-weight: 100;
+    color: rgba(93, 76, 76, 0.692);
 }
+
 .half-width a{
     background: linear-gradient(rgb(24, 101, 108),black,rgb(64, 170, 131));
     text-decoration: none;
@@ -59,18 +61,41 @@ span{
 }
 .btn{
    position: relative;
-   top: 20%;
+   top: 10%;
+}
+.half-width p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 10px;
+}
+.recipies{
+    margin-top: 10%;
+}
+.recipies p{
+    color: rgb(107, 80, 80);
+}
+.myrecipie{
+    text-align: center;
+    line-height: 1.5rem;
+    
+}
+.myrecipie h1{
+    padding-bottom: 10px;
 }
 .card{
     display: flex;
-    height: 400px;
-    
-}
-.card img{
- margin-left: 1%;
-}
-.recipies{
     padding: 5%;
-    text-align: justify;
-
+}
+.card-content{
+    width: 95%;
+    margin: auto;
+    box-shadow:5px 10px 40px rgb(220, 215, 215) ;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-content h1{
+    padding-bottom: 20px;
+}
+.card-content img{
+    width: 100%;
 }
